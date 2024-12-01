@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flit - ChatBot</title>
+    <!-- Linke Google Fonts for icons-->
+     <link rel="shortcut icon" href="ai.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <!--Header Greeting-->
+        <h2 class="title">
+            Hello, There 
+        </h2>
+        <h4 class="subtitle">
+            How Can I help you today?
+        </h4>
+  
+        <!--Suggestion List-->
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">
+                    Can you suggest me gaming night party with 5 friends for under 150$.
+                </h4>
+                <span class="icon material-symbols-rounded">draw</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">
+                    What are the best tips to improve my coding skills
+                </h4>
+                <span class="icon material-symbols-rounded">lightbulb</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">
+                    Can you help me find difference between python vs java
+                </h4>
+                <span class="icon material-symbols-rounded">explore</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">
+                    Can you Build me a to do list app using JavaFX
+                </h4>
+                <span class="icon material-symbols-rounded">code</span>
+            </li>
+        </ul>
+    </header>
+
+    <!--chat litst-->
+    <div class="chat-list"></div>
+
+
+    <!--Typing Area-->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter your prompt here" class="typing-input" required>
+                <button class="icon material-symbols-rounded">send</button>
+            </div>
+            <div class="action-butttons">
+                <span id="delete-chat" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+        <p class="disclaimer-text">
+            Sometimes this can make mistakes.
+        </p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
